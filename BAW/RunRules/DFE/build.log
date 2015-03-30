@@ -1,0 +1,41 @@
+Mon 00:51: ########################################## 
+Mon 00:51: Compiling.
+Mon 00:51: ########################################## 
+
+Mon 00:51: MaxCompiler version: 2014.1.1 (simulation only).
+Mon 00:51: Build DFE run rule for BAW start time: Mon Mar 30 00:51:19 PDT 2015.
+Mon 00:51: Project location: /home/demo/desktop/workspace/BAW.
+Mon 00:51: Detailed build log: /home/demo/desktop/workspace/BAW/RunRules/DFE/build.log.
+
+Mon 00:51: Compiling Engine Code.
+Mon 00:51: Building BAW.max file. 
+Mon 00:51: Setting environment variable:
+Mon 00:51: MAXCOMPILER_BUILD_DIR : /home/demo/desktop/workspace/BAW/RunRules/DFE/maxfiles
+Mon 00:51: MAX_BUILDPARAMS : DFEModel='VECTIS' target='DFE' maxFileName='BAW'  
+Mon 00:51: Building output:
+Mon 00:51: MaxCompiler version: 2014.1.1 (simulation only)
+Mon 00:51: Build "BAW" start time: Mon Mar 30 00:51:27 PDT 2015
+Mon 00:51: Main build process running as user demo on host localhost.localdomain
+Mon 00:51: Build location: /home/demo/Desktop/MaxCompiler-Builds/BAW_VECTIS_DFE
+Mon 00:51: Detailed build log available in "_build.log"
+Mon 00:51: ERROR: ----------------------------
+Mon 00:51: ERROR: Exception in thread "main":
+Mon 00:51: ERROR:  
+Mon 00:51: ERROR:   This version of MaxCompiler can only be used to target simulation. Please use a 
+Mon 00:51: ERROR:   different type of Manager or instantiate this Manager such that it targets 
+Mon 00:51: ERROR:   simulation. The latter is usually achieved by using an alternate constructor 
+Mon 00:51: ERROR:   with a boolean is_simuation (or similar) parameter set to true.
+Mon 00:51: ERROR: 
+Mon 00:51: ERROR: Exception Stack Trace com.maxeler.maxcompiler.v2.errors.MaxCompilerAPIError: 
+Mon 00:51: ERROR:    at com.maxeler.maxcompiler.v2.managers.DFEManager.checkSimulationBuildOnly(DFEManager.java:155)
+Mon 00:51: ERROR:    at com.maxeler.maxcompiler.v2.managers.DFEManager.<init>(DFEManager.java:133)
+Mon 00:51: ERROR:    at com.maxeler.maxcompiler.v2.managers.DFEManager.<init>(DFEManager.java:105)
+Mon 00:51: ERROR:    at com.maxeler.maxcompiler.v2.managers.standard.Manager.<init>(Manager.java:220)
+Mon 00:51: ERROR:    at baw.BAWManager.main(BAWManager.maxj:16)
+Mon 00:51: ERROR: ----------------------------
+Mon 00:51: Building: BAW.max file finished.
+Mon 00:51: Build process failed while trying to create BAW.max file
+Mon 00:51: null
+Mon 00:51: Build failed: Mon Mar 30 00:51:27 PDT 2015
+
+

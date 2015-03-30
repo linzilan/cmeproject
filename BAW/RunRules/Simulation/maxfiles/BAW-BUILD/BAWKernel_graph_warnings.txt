@@ -1,0 +1,3635 @@
+*** After kernel graph-pass 'Init Graph' ***
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 16) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:81)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 17) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:82)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 18) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:83)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 19) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:84)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 20) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:85)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x0; 0.0" (ID 141) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:103)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x0; 0.0" (ID 145) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.<init>(BAWKernel.maxj:110)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 218) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 222) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 226) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 227) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 228) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 347) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 351) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 355) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 356) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 357) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 481) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 485) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 489) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 490) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 491) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 617) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 621) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 625) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 626) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 627) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 917) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 921) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 925) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 926) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 927) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1045) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1049) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1053) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1054) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1055) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1182) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1186) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1190) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1191) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1192) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1314) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1318) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1322) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1323) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1324) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1446) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1450) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1454) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1455) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1456) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1660) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1664) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1668) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1669) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1670) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1789) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1793) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1797) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1798) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1799) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1923) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1927) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 1931) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1932) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1933) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2059) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2063) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2067) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2068) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2069) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2359) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2363) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2367) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2368) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2369) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2487) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2491) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2495) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2496) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2497) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2624) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2628) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2632) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2633) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2634) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2756) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2760) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2764) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2765) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2766) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2888) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2892) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 2896) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2897) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2898) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3102) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3106) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3110) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3111) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3112) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3231) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3235) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3239) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3240) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3241) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3365) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3369) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3373) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3374) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3375) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3501) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3505) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3509) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3510) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3511) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3801) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3805) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3809) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3810) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3811) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 3929) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3933) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 3937) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3938) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 3939) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4066) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4070) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4074) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4075) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4076) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4198) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4202) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4206) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4207) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4208) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4330) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4334) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4338) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4339) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4340) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4544) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4548) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4552) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4553) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4554) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4673) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4677) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4681) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4682) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4683) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4807) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4811) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4815) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4816) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4817) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 4943) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4947) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 4951) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4952) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 4953) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5243) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5247) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5251) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5252) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5253) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5371) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5375) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5379) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5380) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5381) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5508) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5512) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5516) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5517) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5518) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5640) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5644) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5648) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5649) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5650) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5772) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5776) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5780) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5781) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5782) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 5986) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5990) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 5994) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5995) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 5996) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6115) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6119) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6123) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6124) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6125) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6249) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6253) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6257) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6258) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6259) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6385) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6389) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6393) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6394) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6395) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6685) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6689) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6693) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6694) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6695) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6813) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6817) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6821) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6822) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6823) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 6950) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6954) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 6958) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6959) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 6960) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7082) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7086) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7090) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7091) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7092) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7214) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7218) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7222) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7223) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7224) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7428) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7432) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7436) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7437) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7438) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7557) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7561) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7565) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7566) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7567) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7691) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7695) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7699) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7700) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7701) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 7827) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7831) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 7835) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7836) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 7837) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8127) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8131) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8135) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8136) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8137) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8255) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8259) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8263) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8264) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8265) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8392) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8396) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8400) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8401) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8402) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8524) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8528) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8532) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8533) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8534) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8656) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8660) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8664) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8665) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8666) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8870) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8874) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 8878) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8879) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 8880) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 8999) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9003) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9007) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9008) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9009) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9133) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9137) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9141) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9142) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9143) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9269) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9273) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9277) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9278) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9279) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9569) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9573) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9577) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9578) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9579) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9697) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9701) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9705) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9706) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9707) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9834) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9838) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9842) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9843) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9844) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 9966) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9970) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 9974) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9975) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 9976) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 10098) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10102) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10106) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10107) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10108) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 10312) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10316) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10320) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10321) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10322) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 10441) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10445) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10449) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10450) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10451) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 10575) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10579) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10583) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10584) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10585) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 10711) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10715) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 10719) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10720) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 10721) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11011) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11015) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11019) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11020) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11021) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11139) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11143) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11147) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11148) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11149) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11276) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11280) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11284) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11285) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11286) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11408) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11412) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11416) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11417) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11418) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11540) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11544) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11548) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11549) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11550) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11754) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11758) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11762) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11763) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11764) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 11883) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11887) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 11891) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11892) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 11893) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12017) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12021) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12025) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12026) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12027) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12153) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12157) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12161) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12162) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12163) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12453) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12457) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12461) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12462) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12463) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12581) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12585) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12589) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12590) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12591) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12718) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12722) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12726) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12727) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12728) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12850) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12854) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12858) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12859) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12860) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 12982) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12986) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 12990) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12991) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 12992) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 13196) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13200) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13204) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13205) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13206) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 13325) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13329) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13333) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13334) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13335) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:115)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 13459) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13463) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13467) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13468) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13469) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:118)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 13595) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13599) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13603) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13604) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13605) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:119)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13823) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	baw.BAWKernel.<init>(BAWKernel.maxj:127)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 13895) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13899) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 13903) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13904) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 13905) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14023) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14027) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14031) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14032) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14033) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:130)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14160) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14164) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14168) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14169) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14170) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:133)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14292) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14296) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14300) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14301) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14302) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:134)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14424) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14428) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14432) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14433) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14434) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:135)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14565) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	baw.BAWKernel.<init>(BAWKernel.maxj:141)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14646) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14650) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14654) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14655) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14656) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14775) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14779) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14783) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14784) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14785) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_put(BAWKernel.maxj:60)
+	baw.BAWKernel.<init>(BAWKernel.maxj:148)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 14967) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:150)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14971) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:150)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 14975) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:150)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14976) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:150)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 14977) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:150)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 15309) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15313) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15317) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15318) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15319) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 15437) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15441) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15445) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15446) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15447) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.Black_Scholes_Call(BAWKernel.maxj:66)
+	baw.BAWKernel.<init>(BAWKernel.maxj:158)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 15628) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	baw.BAWKernel.cdf(BAWKernel.maxj:24)
+	baw.BAWKernel.<init>(BAWKernel.maxj:160)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15632) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:26)
+	baw.BAWKernel.<init>(BAWKernel.maxj:160)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "MUX" (ID 15636) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1181)
+	baw.BAWKernel.cdf(BAWKernel.maxj:27)
+	baw.BAWKernel.<init>(BAWKernel.maxj:160)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15637) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:29)
+	baw.BAWKernel.<init>(BAWKernel.maxj:160)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 15638) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	baw.BAWKernel.cdf(BAWKernel.maxj:33)
+	baw.BAWKernel.<init>(BAWKernel.maxj:160)
+	baw.BAWManager.main(BAWManager.maxj:17)
+	

@@ -1,0 +1,56 @@
+package baw;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.managers.BuildConfig;
+import com.maxeler.maxcompiler.v2.managers.BuildConfig.Effort;
+import com.maxeler.maxcompiler.v2.managers.engine_interfaces.EngineInterface;
+import com.maxeler.maxcompiler.v2.managers.standard.Manager;
+import com.maxeler.maxcompiler.v2.managers.standard.Manager.IOType;
+
+public class BAWManager {
+
+	private static final String s_kernelName = "BAWKernel";
+
+	public static void main(String[] args) {
+		BAWEngineParameters params = new BAWEngineParameters(args);
+		Manager manager = new Manager(params);
+		Kernel  kernel  = new BAWKernel(manager.makeKernelParameters(s_kernelName));
+		manager.setKernel(kernel);
+		/*manager.setIO(
+			link("x", IODestination.LMEM_LINEAR_1D),
+			link("y", IODestination.CPU),
+			link("s", IODestination.CPU));*/
+		manager.setIO(IOType.ALL_CPU);
+
+		manager.createSLiCinterface(interfaceDefault());
+
+		configBuild(manager, params);
+
+		manager.build();
+	}
+
+	private static EngineInterface interfaceDefault() {
+		EngineInterface engine_interface = new EngineInterface();
+		//CPUTypes   type = CPUTypes.FLOAT;
+		//InterfaceParam size = engine_interface.addParam("size", CPUTypes.FLOAT);
+		//InterfaceParamArray parameters = engine_interface.addParamArray("parameters", CPUTypes.FLOAT);
+		//engine_interface.setStream("S",type, 32*type.sizeInBytes());
+		//engine_interface.setStream("K",type, 32*type.sizeInBytes());
+		//engine_interface.setStream("r",type, 32*type.sizeInBytes());
+		//engine_interface.setStream("q",type, 8*type.sizeInBytes());
+		//engine_interface.setStream("sigma",type, 32*type.sizeInBytes());
+		//engine_interface.setStream("time",type, 32*type.sizeInBytes());
+		//engine_interface.setStream("call_price", type, 32*type.sizeInBytes());
+		//engine_interface.setStream("put_price", type, 32*type.sizeInBytes());
+		return engine_interface;
+	}
+
+	private static void configBuild(Manager manager, BAWEngineParameters params) {
+		manager.setEnableStreamStatusBlocks(false);
+		BuildConfig buildConfig = manager.getBuildConfig();
+		buildConfig.setBuildEffort(Effort.VERY_HIGH);
+		buildConfig.setMPPRCostTableSearchRange(params.getMPPRStartCT(), params.getMPPREndCT());
+		buildConfig.setMPPRParallelism(params.getMPPRThreads());
+		buildConfig.setMPPRRetryNearMissesThreshold(params.getMPPRRetryThreshold());
+	}
+}

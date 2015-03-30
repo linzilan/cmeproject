@@ -1,0 +1,40 @@
+Mon 00:51: PROGRESS: MaxCompiler version: 2014.1.1 (simulation only)
+Mon 00:51: PROGRESS: Build "BAW" start time: Mon Mar 30 00:51:27 PDT 2015
+Mon 00:51: PROGRESS: Main build process running as user demo on host localhost.localdomain
+Mon 00:51: INFO    : Loading build properties from bundled MaxCompiler_build.conf...
+Mon 00:51: INFO    : No default external build property file has been specified.
+Mon 00:51: INFO    : (Set environment variable MAXCOMPILER_DEFAULT_CONF_FILE to assign one)
+Mon 00:51: INFO    : Loading user build properties from: /home/demo/.MaxCompiler_build_user.conf
+Mon 00:51: INFO    : No user-specified external build property file has been specified.
+Mon 00:51: INFO    : (Set environment variable MAXCOMPILER_BUILD_CONF_FILE to assign one)
+Mon 00:51: INFO    : Loading additional parameters from MAXCOMPILER_BUILD_CONF environment variable
+Mon 00:51: PROGRESS: Build location: /home/demo/Desktop/MaxCompiler-Builds/BAW_VECTIS_DFE
+Mon 00:51: PROGRESS: Detailed build log available in "_build.log"
+Mon 00:51: INFO    : Created build manager BAW (BAW_VECTIS_DFE Mon Mar 30 00:51:27 PDT 2015). (00:51:27 30/03/15)
+Mon 00:51: INFO    : Working in dir: /home/demo/Desktop/MaxCompiler-Builds/BAW_VECTIS_DFE
+Mon 00:51: INFO    : Java class path (2 paths):
+Mon 00:51: INFO    : 	/home/demo/desktop/workspace/BAW/EngineCode/bin
+Mon 00:51: INFO    : 	/opt/maxeler/maxcompiler/lib/MaxCompiler.jar
+Mon 00:51: INFO    : Java process started by 'main' method in class 'baw.BAWManager'.
+Mon 00:51: INFO    : build.arbitrated_core_cache parameter is blank, not using core-cache
+Mon 00:51: INFO    : Checking license files in directory: /opt/maxeler/maxcompiler/licenses
+Mon 00:51: INFO    : All license signatures valid.
+Mon 00:51: INFO    : Backing-up source-files (old source files in build directory will be removed first)...
+Mon 00:51: INFO    : Source directories: /home/demo/desktop/workspace/BAW/EngineCode/src:
+Mon 00:51: INFO    : Not deleting directory (does not exist): src
+Mon 00:51: INFO    : Copying source-files took 2.63243 ms
+Mon 00:51: ERROR   : ----------------------------
+Mon 00:51: ERROR   : Exception in thread "main":
+Mon 00:51: ERROR   :  
+Mon 00:51: ERROR   :   This version of MaxCompiler can only be used to target simulation. Please use a 
+Mon 00:51: ERROR   :   different type of Manager or instantiate this Manager such that it targets 
+Mon 00:51: ERROR   :   simulation. The latter is usually achieved by using an alternate constructor 
+Mon 00:51: ERROR   :   with a boolean is_simuation (or similar) parameter set to true.
+Mon 00:51: ERROR   : 
+Mon 00:51: ERROR   : Exception Stack Trace com.maxeler.maxcompiler.v2.errors.MaxCompilerAPIError: 
+Mon 00:51: ERROR   :    at com.maxeler.maxcompiler.v2.managers.DFEManager.checkSimulationBuildOnly(DFEManager.java:155)
+Mon 00:51: ERROR   :    at com.maxeler.maxcompiler.v2.managers.DFEManager.<init>(DFEManager.java:133)
+Mon 00:51: ERROR   :    at com.maxeler.maxcompiler.v2.managers.DFEManager.<init>(DFEManager.java:105)
+Mon 00:51: ERROR   :    at com.maxeler.maxcompiler.v2.managers.standard.Manager.<init>(Manager.java:220)
+Mon 00:51: ERROR   :    at baw.BAWManager.main(BAWManager.maxj:16)
+Mon 00:51: ERROR   : ----------------------------
