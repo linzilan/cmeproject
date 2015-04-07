@@ -1,1 +1,0 @@
-../scratch/SimpleKernel_NodeDiary.txt

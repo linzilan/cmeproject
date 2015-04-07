@@ -1,1 +1,0 @@
-../scratch/SimpleKernel_Configuration.txt

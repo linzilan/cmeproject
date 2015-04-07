@@ -1,7 +1,0 @@
-Clock: STREAM (100 MHz)
-	[STREAM] SimpleKernel (Kernel)
-	[STREAM] Stream_5 (Fifo)
-	[STREAM] Stream_5 (Fifo)
-	[STREAM] Stream_3 (DualAspectReg)
-	[STREAM] Stream_7 (StreamPullPushAdapter)
-	[STREAM] y (PCIe_To_Host_fwd)
