@@ -1,0 +1,157 @@
+/*
+	Whaley Model to calculate American call price
+*/
+package simple;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.kernelcompiler.KernelParameters;
+import com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.KernelMath;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar;
+
+class SimpleKernel extends Kernel
+{
+	DFEVar cdf(DFEVar z)
+	{
+		DFEVar b1 = constant.var(dfeFloat(8,24),0.31938153);
+		DFEVar b2 = constant.var(dfeFloat(8,24),-0.356563782);
+		DFEVar b3 = constant.var(dfeFloat(8,24),1.781477937);
+		DFEVar b4 = constant.var(dfeFloat(8,24),-1.821255978);
+		DFEVar b5 = constant.var(dfeFloat(8,24),1.330274429);
+		DFEVar p = constant.var(dfeFloat(8,24),0.2316419);
+		DFEVar c2 = constant.var(dfeFloat(8,24),0.3989423);
+		DFEVar flag1 = constant.var(false);
+	    DFEVar flag2 = constant.var(false);
+	    DFEVar n = constant.var(dfeFloat(8,24),0.0);
+
+	    flag1 = (z > constant.var(6.0)) ? (constant.var(true)) : flag1;
+	    flag2 = (z < constant.var(-6.0)) ? (constant.var(true)) : flag2;
+
+	    if (flag1 == constant.var(true))
+	    {
+	    	n = constant.var(dfeFloat(8,24), 1.0);
+	    }
+	    else if (flag2 == constant.var(true))
+	    {
+	    	n = constant.var(dfeFloat(8,24), 0.0);
+	    }
+	    else
+	    {
+	    	DFEVar a = KernelMath.abs(z);
+	    	DFEVar t = 1.0/(1.0+a*p);
+	    	DFEVar b = c2*KernelMath.exp((-z)*(z/constant.var(2.0)));
+	    	n = ((((b5*t+b4)*t+b3)*t+b2)*t+b1)*t;
+	    	n = 1.0-b*n;
+
+	    	n = (z<constant.var(0.0)) ? (constant.var(1.0)-n) : n;
+
+	    }
+
+		return n;
+	}
+
+	DFEVar Black_Scholes_Call(DFEVar S, DFEVar X, DFEVar r, DFEVar q, DFEVar sigma,DFEVar time)
+	{
+		KernelMath.Range log_range = new KernelMath.Range(0.0,100.0);
+		DFEVar d1 = (KernelMath.log(log_range, (S/X),dfeFloat(8, 24)) + (r-q + 0.5*sigma*sigma)*time)/(sigma*KernelMath.sqrt(time));
+		DFEVar d2 = d1-(sigma*KernelMath.sqrt(time));
+		return (S * KernelMath.exp(-q*time)* cdf(d1) - X * KernelMath.exp(-r*time) * cdf(d2));
+
+	}
+
+	SimpleKernel(KernelParameters parameters) {
+		super(parameters);
+
+		// Input
+		DFEVar S = io.scalarInput("S", dfeFloat(8,24));
+		DFEVar X = io.scalarInput("K", dfeFloat(8,24));
+		DFEVar r = io.scalarInput("r", dfeFloat(8,24));
+		DFEVar q = io.scalarInput("q", dfeFloat(8,24));
+		DFEVar sigma = io.scalarInput("sigma", dfeFloat(8,24));
+		DFEVar time  = io.scalarInput("time", dfeFloat(8,24));
+
+		DFEVar ACCURACY = constant.var(dfeFloat(8,24),1.0e-6);
+		KernelMath.Range log_range = new KernelMath.Range(0.0,100.0);
+
+	    DFEVar sigma_sqr = sigma * sigma;
+	    DFEVar time_sqrt = KernelMath.sqrt(time);
+	    DFEVar nn = 2.0/ sigma_sqr;
+	    DFEVar m = 2.0 * r / sigma_sqr;
+	    DFEVar K = 1.0 - KernelMath.exp(-r*time);
+	    DFEVar q2 = (-(nn - 1) + KernelMath.sqrt(KernelMath.exp(2.0*KernelMath.log(log_range,(nn - 1),dfeFloat(8, 24))) + (4 * m / K))) * 0.5;
+	    DFEVar q2_inf = 0.5 * (-(nn - 1) + KernelMath.sqrt(KernelMath.exp(2.0*KernelMath.log(log_range,(nn - 1),dfeFloat(8, 24))) + 4.0 * m)); // seed value from paper
+	    DFEVar S_star_inf = X / (1.0 - 1.0 / q2_inf);
+	    DFEVar h2 = -( + 2.0 * sigma * time_sqrt) * (X / (S_star_inf - X));
+	    DFEVar S_seed = X + (S_star_inf - X) * (1.0 - KernelMath.exp(h2));
+	    DFEVar Si = S_seed;
+	    DFEVar g = constant.var(dfeFloat(8,24),1.0);
+	    DFEVar gprime = constant.var(dfeFloat(8,24),1.0);
+	    DFEVar flag1 = constant.var(false);
+	    DFEVar flag2 = constant.var(false);
+
+	    for (int i =0; i < 500; i++)
+	    {
+	    	DFEVar d1 = (KernelMath.log(log_range, (Si/X),dfeFloat(8, 24)) + ( + 0.5 * sigma_sqr) * time) / (sigma* time_sqrt);
+		    DFEVar c = Black_Scholes_Call(Si, X, r, q, sigma,time);
+
+	        g = (1.0 - 1.0 / q2) * Si - X - c + (1.0 / q2) * Si * KernelMath.exp(( - r)* time) * cdf(d1);
+	        gprime = (1.0 - 1.0 / q2) * (1.0 -KernelMath.exp(( - r) * time) * cdf(d1)) + (1.0/ q2) * KernelMath.exp(( - r) * time) *cdf(d1) * (1.0/(sigma * time_sqrt));
+	        Si = Si - (g / gprime);
+
+	        flag1 = (KernelMath.abs(g) < ACCURACY) ? (constant.var(true)) : flag1;
+	        flag2 = (KernelMath.abs(gprime) < ACCURACY) ? (constant.var(true)) : flag2;
+
+	        if ((flag1 == constant.var(true)) || (flag2 != constant.var(true)))
+	        {
+	        	break;
+	        }
+
+	    }
+
+	    DFEVar S_star = constant.var(dfeFloat(8,24),0);
+
+	    if (flag1 == constant.var(false)) {
+	        S_star = S_seed;
+	    } // did not converge
+	    else {
+	        S_star = Si;
+	    }
+
+	    DFEVar C = constant.var(dfeFloat(8,24),0.0);
+	    DFEVar c = constant.var(dfeFloat(8,24),0.0);
+
+	    c = Black_Scholes_Call(S, X, r, q, sigma, time);
+
+	    flag1 = (S >= S_star) ? (constant.var(true)) : (constant.var(false));
+
+	    if (flag1 == constant.var(true))
+	    {
+	        C = S - X;
+	    }
+	    else
+	    {
+	    	DFEVar d1 = (KernelMath.log(log_range, S_star/X,dfeFloat(8, 24)) + ( + 0.5 * sigma_sqr) * time) / (sigma* time_sqrt);
+	    	DFEVar A2 = (1.0 - KernelMath.exp((-r) * time) * cdf(d1)) * (S_star / q2);
+	        C = c + A2 * KernelMath.exp(q2*KernelMath.log(log_range, S/S_star,dfeFloat(8, 24)));
+	    }
+
+	    C = KernelMath.max(C, c);
+
+		io.output("y", C, dfeFloat(8, 24));
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

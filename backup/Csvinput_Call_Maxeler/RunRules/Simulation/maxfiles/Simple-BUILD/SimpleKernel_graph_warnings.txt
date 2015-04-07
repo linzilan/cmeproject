@@ -1,0 +1,373 @@
+*** After kernel graph-pass 'Init Graph' ***
+node "{HWFloat:8, 24}\n0x3f800000; 1.0" (ID 481) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:86)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x3f800000; 1.0" (ID 482) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:87)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 706) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 710) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 714) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 715) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 716) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 913) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 917) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 921) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 922) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 923) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:94)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1131) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:96)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1135) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:96)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1139) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:96)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1140) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:96)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1141) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:96)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1342) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1346) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1350) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1351) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1352) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1554) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1558) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1562) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1563) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1564) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:97)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1686) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:100)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1693) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:101)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1694) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:103)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1695) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:103)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1696) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:110)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x0; 0.0" (ID 1697) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:112)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1698) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:119)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1699) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:120)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 1859) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1863) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 1867) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1868) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 1869) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2066) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 2070) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 2074) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2075) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2076) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.Black_Scholes_Call(SimpleKernel.maxj:57)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:122)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 2189) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:124)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2190) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:126)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWFloat:8, 24}\n0x00000000; 0.0" (ID 2340) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:99)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:24)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:133)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 2344) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:26)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:133)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "MUX" (ID 2348) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.ternaryIf(DFEVar.java:1152)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:27)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:133)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2349) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:29)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:133)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	
+node "{HWOffsetFix:1, 0, UNSIGNED}\n0x1; 1.0" (ID 2350) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:80)
+	simple.SimpleKernel.cdf(SimpleKernel.maxj:33)
+	simple.SimpleKernel.<init>(SimpleKernel.maxj:133)
+	simple.SimpleManager.main(SimpleManager.maxj:23)
+	

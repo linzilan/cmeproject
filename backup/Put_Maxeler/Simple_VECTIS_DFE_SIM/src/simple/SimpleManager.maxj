@@ -1,0 +1,37 @@
+package simple;
+
+import com.maxeler.maxcompiler.v2.build.EngineParameters;
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.managers.engine_interfaces.CPUTypes;
+import com.maxeler.maxcompiler.v2.managers.engine_interfaces.EngineInterface;
+import com.maxeler.maxcompiler.v2.managers.engine_interfaces.InterfaceParamArray;
+import com.maxeler.maxcompiler.v2.managers.standard.Manager;
+import com.maxeler.maxcompiler.v2.managers.standard.Manager.IOType;
+
+class SimpleManager {
+	public static void main(String[] args) {
+		EngineParameters params = new EngineParameters(args);
+		Manager manager = new Manager(params);
+		Kernel kernel = new SimpleKernel(manager.makeKernelParameters());
+		manager.setKernel(kernel);
+		manager.setIO(IOType.ALL_CPU);
+		manager.createSLiCinterface(interfaceVariable());
+		manager.build();
+	}
+
+	static EngineInterface interfaceVariable() {
+		EngineInterface ei = new EngineInterface();
+		InterfaceParamArray parameter = ei.addParamArray("parameter", CPUTypes.FLOAT);
+		//ei.setTicks("SimpleKernel",1);
+		ei.setScalar("SimpleKernel", "S", parameter[0]);
+		ei.setScalar("SimpleKernel", "K", parameter[1]);
+		ei.setScalar("SimpleKernel", "r", parameter[2]);
+		ei.setScalar("SimpleKernel", "q", parameter[3]);
+		ei.setScalar("SimpleKernel", "sigma", parameter[4]);
+		ei.setScalar("SimpleKernel", "time", parameter[5]);
+
+		//ei.setStream("x", CPUTypes.FLOAT, 4*CPUTypes.FLOAT.sizeInBytes());
+		ei.setStream("y", CPUTypes.FLOAT, 8*CPUTypes.FLOAT.sizeInBytes());
+		return ei;
+	}
+}

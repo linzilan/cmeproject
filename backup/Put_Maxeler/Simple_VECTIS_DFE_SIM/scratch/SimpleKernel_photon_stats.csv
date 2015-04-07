@@ -1,0 +1,226 @@
+
+Pre-schedule statistics
+
+
+Total nodes: 22463
+
+Node class;Type;Length;Num
+NodeAdd;{HWFloat:8, 24};0;541
+NodeAdd;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;418
+NodeAdd;{HWOffsetFix:27, -26, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:28, -26, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:36, -26, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:51, -50, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:52, -50, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:54, -52, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:56, -60, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:56, -68, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeAnd;{HWOffsetFix:1, 0, UNSIGNED};0;836
+NodeCast;{HWFloat:8, 24};0;44
+NodeCast;{HWOffsetFix:10, -12, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:10, 0, TWOSCOMPLEMENT};0;209
+NodeCast;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;209
+NodeCast;{HWOffsetFix:14, -26, UNSIGNED};0;418
+NodeCast;{HWOffsetFix:2, -2, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:23, -23, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:27, -26, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:28, -26, TWOSCOMPLEMENT} with doubt info;0;44
+NodeCast;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:28, -26, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:28, -33, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:28, -41, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:36, -26, TWOSCOMPLEMENT} with doubt info;0;209
+NodeCast;{HWOffsetFix:8, 0, TWOSCOMPLEMENT};0;209
+NodeCat;{HWRawBits:2};0;209
+NodeCat;{HWRawBits:32};0;540
+NodeCat;{HWRawBits:9};0;462
+NodeConstantDouble;HWUntypedConst;0;2096
+NodeConstantRawBits;{HWFloat:8, 24};0;811
+NodeConstantRawBits;{HWOffsetFix:1, 0, UNSIGNED};0;539
+NodeConstantRawBits;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;418
+NodeConstantRawBits;{HWOffsetFix:14, -14, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:23, 0, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;88
+NodeConstantRawBits;{HWOffsetFix:49, 0, UNSIGNED};0;2
+NodeConstantRawBits;{HWOffsetFix:8, 0, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;88
+NodeConstantRawBits;{HWRawBits:1};0;375
+NodeCounterV1;{HWOffsetFix:48, 0, UNSIGNED};0;2
+NodeDiv;{HWFloat:8, 24};0;272
+NodeDoubtBitOp;{HWFloat:8, 24} with doubt info;0;209
+NodeDoubtBitOp;{HWOffsetFix:1, 0, UNSIGNED};0;506
+NodeDoubtBitOp;{HWOffsetFix:23, -23, UNSIGNED} with doubt info;0;44
+NodeDoubtBitOp;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeDoubtBitOp;{HWOffsetFix:36, -26, TWOSCOMPLEMENT};0;209
+NodeEq;{HWOffsetFix:1, 0, UNSIGNED};0;1
+NodeGt;{HWOffsetFix:1, 0, UNSIGNED};0;211
+NodeGte;{HWOffsetFix:1, 0, UNSIGNED} with doubt info;0;44
+NodeGte;{HWOffsetFix:1, 0, UNSIGNED};0;418
+NodeInputMappedReg;{HWFloat:8, 24};0;6
+NodeInputMappedReg;{HWOffsetFix:1, 0, UNSIGNED};0;1
+NodeInputMappedReg;{HWOffsetFix:48, 0, UNSIGNED};0;1
+NodeLt;{HWOffsetFix:1, 0, UNSIGNED};0;540
+NodeMul;{HWFloat:8, 24};0;1270
+NodeMul;{HWOffsetFix:28, -40, UNSIGNED};0;209
+NodeMul;{HWOffsetFix:36, -26, TWOSCOMPLEMENT} with doubt info;0;209
+NodeMul;{HWOffsetFix:38, -50, UNSIGNED};0;209
+NodeMul;{HWOffsetFix:47, -52, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:47, -60, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:47, -68, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:49, -50, UNSIGNED};0;209
+NodeMux;{HWFloat:8, 24};0;352
+NodeMux;{HWOffsetFix:1, 0, UNSIGNED};0;57
+NodeMux;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;209
+NodeMux;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeMux;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeMux;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeNeg;{HWFloat:8, 24};0;268
+NodeNot;{HWOffsetFix:1, 0, UNSIGNED};0;419
+NodeOr;{HWOffsetFix:1, 0, UNSIGNED} with doubt info;0;44
+NodeOr;{HWOffsetFix:1, 0, UNSIGNED};0;418
+NodePO2FPMult;{HWFloat:8, 24};0;150
+NodeROM;{HWOffsetFix:22, -24, UNSIGNED};0;209
+NodeROM;{HWOffsetFix:24, -24, UNSIGNED};0;209
+NodeROM;{HWOffsetFix:28, -27, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -33, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -41, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -49, TWOSCOMPLEMENT};0;44
+NodeReinterpret;{HWFloat:8, 24};0;540
+NodeReinterpret;{HWOffsetFix:10, 0, UNSIGNED};0;209
+NodeReinterpret;{HWOffsetFix:19, -19, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:2, 0, UNSIGNED};0;209
+NodeReinterpret;{HWOffsetFix:23, -23, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:28, 0, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:7, 0, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeReinterpret;{HWRawBits:10};0;209
+NodeReinterpret;{HWRawBits:23};0;209
+NodeReinterpret;{HWRawBits:28};0;44
+NodeReinterpret;{HWRawBits:2};0;209
+NodeReinterpret;{HWRawBits:8};0;209
+NodeSlice;{HWRawBits:19};0;44
+NodeSlice;{HWRawBits:23};0;44
+NodeSlice;{HWRawBits:31};0;122
+NodeSlice;{HWRawBits:7};0;44
+NodeSlice;{HWRawBits:8};0;44
+NodeSqrt;{HWFloat:8, 24};0;45
+NodeStreamOffset;{HWOffsetFix:48, 0, UNSIGNED};0;1
+NodeSub;{HWFloat:8, 24};0;376
+NodeSub;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeSub;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+
+Final statistics
+
+
+Total nodes: 22463
+
+Node class;Type;Length;Num
+NodeAdd;{HWFloat:8, 24};0;541
+NodeAdd;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;418
+NodeAdd;{HWOffsetFix:27, -26, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:28, -26, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:36, -26, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:51, -50, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:52, -50, UNSIGNED};0;209
+NodeAdd;{HWOffsetFix:54, -52, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:56, -60, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:56, -68, TWOSCOMPLEMENT};0;44
+NodeAdd;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeAnd;{HWOffsetFix:1, 0, UNSIGNED};0;836
+NodeCast;{HWFloat:8, 24};0;44
+NodeCast;{HWOffsetFix:10, -12, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:10, 0, TWOSCOMPLEMENT};0;209
+NodeCast;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;209
+NodeCast;{HWOffsetFix:14, -26, UNSIGNED};0;418
+NodeCast;{HWOffsetFix:2, -2, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:23, -23, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:27, -26, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:28, -26, TWOSCOMPLEMENT} with doubt info;0;44
+NodeCast;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:28, -26, UNSIGNED};0;209
+NodeCast;{HWOffsetFix:28, -33, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:28, -41, TWOSCOMPLEMENT};0;44
+NodeCast;{HWOffsetFix:36, -26, TWOSCOMPLEMENT} with doubt info;0;209
+NodeCast;{HWOffsetFix:8, 0, TWOSCOMPLEMENT};0;209
+NodeCat;{HWRawBits:2};0;209
+NodeCat;{HWRawBits:32};0;540
+NodeCat;{HWRawBits:9};0;462
+NodeConstantDouble;HWUntypedConst;0;2096
+NodeConstantRawBits;{HWFloat:8, 24};0;811
+NodeConstantRawBits;{HWOffsetFix:1, 0, UNSIGNED};0;539
+NodeConstantRawBits;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;418
+NodeConstantRawBits;{HWOffsetFix:14, -14, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:23, 0, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;88
+NodeConstantRawBits;{HWOffsetFix:49, 0, UNSIGNED};0;2
+NodeConstantRawBits;{HWOffsetFix:8, 0, UNSIGNED};0;209
+NodeConstantRawBits;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;88
+NodeConstantRawBits;{HWRawBits:1};0;375
+NodeCounterV1;{HWOffsetFix:48, 0, UNSIGNED};0;2
+NodeDiv;{HWFloat:8, 24};0;272
+NodeDoubtBitOp;{HWFloat:8, 24} with doubt info;0;209
+NodeDoubtBitOp;{HWOffsetFix:1, 0, UNSIGNED};0;506
+NodeDoubtBitOp;{HWOffsetFix:23, -23, UNSIGNED} with doubt info;0;44
+NodeDoubtBitOp;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeDoubtBitOp;{HWOffsetFix:36, -26, TWOSCOMPLEMENT};0;209
+NodeEq;{HWOffsetFix:1, 0, UNSIGNED};0;1
+NodeGt;{HWOffsetFix:1, 0, UNSIGNED};0;211
+NodeGte;{HWOffsetFix:1, 0, UNSIGNED} with doubt info;0;44
+NodeGte;{HWOffsetFix:1, 0, UNSIGNED};0;418
+NodeInputMappedReg;{HWFloat:8, 24};0;6
+NodeInputMappedReg;{HWOffsetFix:1, 0, UNSIGNED};0;1
+NodeInputMappedReg;{HWOffsetFix:48, 0, UNSIGNED};0;1
+NodeLt;{HWOffsetFix:1, 0, UNSIGNED};0;540
+NodeMul;{HWFloat:8, 24};0;1270
+NodeMul;{HWOffsetFix:28, -40, UNSIGNED};0;209
+NodeMul;{HWOffsetFix:36, -26, TWOSCOMPLEMENT} with doubt info;0;209
+NodeMul;{HWOffsetFix:38, -50, UNSIGNED};0;209
+NodeMul;{HWOffsetFix:47, -52, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:47, -60, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:47, -68, TWOSCOMPLEMENT};0;44
+NodeMul;{HWOffsetFix:49, -50, UNSIGNED};0;209
+NodeMux;{HWFloat:8, 24};0;352
+NodeMux;{HWOffsetFix:1, 0, UNSIGNED};0;57
+NodeMux;{HWOffsetFix:11, 0, TWOSCOMPLEMENT};0;209
+NodeMux;{HWOffsetFix:24, -23, UNSIGNED};0;209
+NodeMux;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeMux;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeNeg;{HWFloat:8, 24};0;268
+NodeNot;{HWOffsetFix:1, 0, UNSIGNED};0;419
+NodeOr;{HWOffsetFix:1, 0, UNSIGNED} with doubt info;0;44
+NodeOr;{HWOffsetFix:1, 0, UNSIGNED};0;418
+NodePO2FPMult;{HWFloat:8, 24};0;150
+NodeROM;{HWOffsetFix:22, -24, UNSIGNED};0;209
+NodeROM;{HWOffsetFix:24, -24, UNSIGNED};0;209
+NodeROM;{HWOffsetFix:28, -27, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -33, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -41, TWOSCOMPLEMENT};0;44
+NodeROM;{HWOffsetFix:28, -49, TWOSCOMPLEMENT};0;44
+NodeReinterpret;{HWFloat:8, 24};0;540
+NodeReinterpret;{HWOffsetFix:10, 0, UNSIGNED};0;209
+NodeReinterpret;{HWOffsetFix:19, -19, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:2, 0, UNSIGNED};0;209
+NodeReinterpret;{HWOffsetFix:23, -23, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:28, 0, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:7, 0, UNSIGNED};0;44
+NodeReinterpret;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44
+NodeReinterpret;{HWRawBits:10};0;209
+NodeReinterpret;{HWRawBits:23};0;209
+NodeReinterpret;{HWRawBits:28};0;44
+NodeReinterpret;{HWRawBits:2};0;209
+NodeReinterpret;{HWRawBits:8};0;209
+NodeSlice;{HWRawBits:19};0;44
+NodeSlice;{HWRawBits:23};0;44
+NodeSlice;{HWRawBits:31};0;122
+NodeSlice;{HWRawBits:7};0;44
+NodeSlice;{HWRawBits:8};0;44
+NodeSqrt;{HWFloat:8, 24};0;45
+NodeStreamOffset;{HWOffsetFix:48, 0, UNSIGNED};0;1
+NodeSub;{HWFloat:8, 24};0;376
+NodeSub;{HWOffsetFix:28, -26, TWOSCOMPLEMENT};0;44
+NodeSub;{HWOffsetFix:9, 0, TWOSCOMPLEMENT};0;44

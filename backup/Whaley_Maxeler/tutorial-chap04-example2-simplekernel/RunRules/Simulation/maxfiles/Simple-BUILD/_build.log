@@ -1,0 +1,821 @@
+Fri 10:33: PROGRESS: MaxCompiler version: 2014.2 (simulation only)
+Fri 10:33: PROGRESS: Build "Simple" start time: Fri Mar 13 10:33:39 PDT 2015
+Fri 10:33: PROGRESS: Main build process running as user demo on host localhost.localdomain
+Fri 10:33: INFO    : Loading build properties from bundled MaxCompiler_build.conf...
+Fri 10:33: INFO    : No default external build property file has been specified.
+Fri 10:33: INFO    : (Set environment variable MAXCOMPILER_DEFAULT_CONF_FILE to assign one)
+Fri 10:33: INFO    : Loading user build properties from: /home/demo/.MaxCompiler_build_user.conf
+Fri 10:33: INFO    : No user-specified external build property file has been specified.
+Fri 10:33: INFO    : (Set environment variable MAXCOMPILER_BUILD_CONF_FILE to assign one)
+Fri 10:33: INFO    : Loading additional parameters from MAXCOMPILER_BUILD_CONF environment variable
+Fri 10:33: PROGRESS: Build location: /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM
+Fri 10:33: PROGRESS: Detailed build log available in "_build.log"
+Fri 10:33: INFO    : Created build manager Simple (Simple_VECTIS_DFE_SIM Fri Mar 13 10:33:39 PDT 2015). (10:33:39 13/03/15)
+Fri 10:33: INFO    : Working in dir: /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM
+Fri 10:33: INFO    : Java class path (2 paths):
+Fri 10:33: INFO    : 	/home/demo/workspace/tutorial-chap04-example2-simplekernel/EngineCode/bin
+Fri 10:33: INFO    : 	/opt/maxeler/maxcompiler/lib/MaxCompiler.jar
+Fri 10:33: INFO    : Java process started by 'main' method in class 'simple.SimpleManager'.
+Fri 10:33: INFO    : build.arbitrated_core_cache parameter is blank, not using core-cache
+Fri 10:33: INFO    : Checking license files in directory: /opt/maxeler/maxcompiler/licenses
+Fri 10:33: INFO    : All license signatures valid.
+Fri 10:33: INFO    : Backing-up source-files (old source files in build directory will be removed first)...
+Fri 10:33: INFO    : Source directories: /home/demo/workspace/tutorial-chap04-example2-simplekernel/EngineCode/src:
+Fri 10:33: INFO    : Deleting directory: src
+Fri 10:33: INFO    : Copying source-files took 11.7480 ms
+Fri 10:33: PROGRESS: Instantiating manager
+Fri 10:33: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/SimpleKernel_graph_warnings.txt
+Fri 10:33: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/SimpleKernel.graphs
+Fri 10:33: PROGRESS: Instantiating kernel "SimpleKernel"
+Fri 10:33: WARNING : Floating-point casts ignore set rounding mode and use TONEAREVEN rounding only.
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: INFO    : Running command: java  com.maxeler.maxblox.funceval.RemezRunner FunctionLog2_0.0_1.0_3_128_28.remezInput
+Fri 10:33: INFO    : Checking for file hash changes...
+Fri 10:33: INFO    : No changes.
+Fri 10:33: INFO    : Error requirement satisfied for job 
+Fri 10:33: INFO    : Maximum approx error: 1.0334799625717955E-11
+Fri 10:33: INFO    : Required approx error: 1.862645149230957E-9
+Fri 10:33: INFO    : Error requirement satisifed for all jobs
+Fri 10:33: PROGRESS: Compiling manager (CPU I/O Only)
+Fri 10:33: INFO    : Manager Configuration:
+Fri 10:33: INFO    : 	ManagerConfiguration.allowNonMultipleTransitions = false                                                         [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.board = MAX3424A                                                                            [Init: null, init: MAX3424A]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.buildEffort = MEDIUM                                                                  [Init: MEDIUM]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.enableChipScopeInserter = false                                                       [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.enableTimingAnalysis = true                                                           [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.level = FULL_BUILD                                                                    [Init: FULL_BUILD]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.mpprContinueAfterMeetingTiming = false                                                [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.mpprCtMax = 1                                                                         [Init: 1]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.mpprCtMin = 1                                                                         [Init: 1]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.mpprParallelism = 1                                                                   [Init: 1]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.mpprRetryMissesThrshld = 0                                                            [Init: 0]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.optGoal = BALANCED                                                                    [Init: BALANCED]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthAsyncPipelining = AUTO                                                       [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthCombLogic = AUTO                                                             [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthCombLogicForArea = AUTO                                                      [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthEffort = AUTO                                                                [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthRegDuplication = AUTO                                                        [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physSynthRetiming = AUTO                                                              [Init: AUTO]
+Fri 10:33: INFO    : 	ManagerConfiguration.build.physicalSynthesis = false                                                             [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.buildTarget = DFE_SIM                                                                       [Init: null, init: DFE_SIM]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.chipscopeCaptureDepth = 4096                                                          [Init: 4096]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.fifoUnderOverFlowRegs = false                                                         [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.memCtlDebugRegs = true                                                                [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.memCtlExtraDebugRegs = false                                                          [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.memMarginingSupport = false                                                           [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.memPhyDebugRegister = NONE                                                            [Init: NONE]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.memPllLockDebugRegs = true                                                            [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.streamStatus = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.debug.streamStatusChecksums = false                                                         [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.addressGeneratorsInSlowClock = false                                                   [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.arbitrationMode = ROUND_ROBIN                                                          [Init: ROUND_ROBIN]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.burstSize = 8                                                                          [Init: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.cmdFifoInReg = false                                                                   [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.cmdFifoLutRam = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.cmdFifoRegInRam = true                                                                 [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.cmdFifoSize = 31                                                                       [Init: 31]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.commandEchoModeEnabled = false                                                         [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.commandEchoModeFifoDepth = 512                                                         [Init: 512]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 792                                          [Init: 792]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 8                                            [Init: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamStallLatency = 8                                                  [Init: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.dataFifoDepth = 512                                                                    [Init: 512]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.dataFifoLutRam = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.dataFifoWidth = 792                                                                    [Init: 792]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.eccMode = false                                                                        [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.fabricDataFifoReg = true                                                               [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.fabricRdDataFifoReg = false                                                            [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.flagSupport = false                                                                    [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.highPrioStream = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.max2CompatMode = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.max4m_GALAVA_MCP_UseRefClk = false                                                     [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.max4m_MAIA_MCP_UseRefClk = false                                                       [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.max4qrateMode = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.memCmdIncSize = 8                                                                      [Init: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.memCmdStartAddrSize = 32                                                               [Init: 32]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.onCardMemFreq = 303.0                                                                  [Init: 0.0, change: 303.0]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.parEccDebugStream = false                                                              [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.parityEccWidth = 0                                                                     [Init: 0]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.parityMode = false                                                                     [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.perdqsPhaseDetect = false                                                              [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.dram.performanceMode = true                                                                 [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.enableMPCX = false                                                                          [Init: false, init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.maxring.maxringConnections = []                                                             [Init: []]
+Fri 10:33: INFO    : 	ManagerConfiguration.maxring.maxringNumLanes = {MAXRING_LITE_B=1, MAXRING_LITE_A=1, MAXRING_A=2, MAXRING_B=2}    [Init: {}]
+Fri 10:33: INFO    : 	ManagerConfiguration.multiCycleMappedMemoryBus = false                                                           [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.network.qsfpBotMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.network.qsfpMidMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.network.qsfpTopMode = QSFP_OFF                                                              [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.pcie.numPCIeLanes = 0                                                                       [Init: 0]
+Fri 10:33: INFO    : 	ManagerConfiguration.pcie.pcieFastClock = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.pcie.streamFromHostMaxNum = 8                                                               [Init: 0, change: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.pcie.streamToHostMaxNum = 8                                                                 [Init: 0, change: 8]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.boardModel = MAX3424A                                                               [Init: null, change: MAX3424A]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.ddr3Enable = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.ddr3Frq = 303.0                                                                     [Init: 400.0, change: 303.0]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.ddr3Qmode = false                                                                   [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.disableMultiplePersona = true                                                       [Init: true]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.dynamic_scaling = false                                                             [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.maxRingLocal = false                                                                [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.maxRingOptical = false                                                              [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.maxringDataRate = 2500.0                                                            [Init: 2500.0]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.maxringOpticalDataRate = 10000.0                                                    [Init: 10000.0]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.mode = InitMode                                                                     [Init: InitMode]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.networkPTP = OFF                                                                    [Init: OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.networkQSFP_BOT = QSFP_OFF                                                          [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.networkQSFP_MID = QSFP_OFF                                                          [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.networkQSFP_TOP = QSFP_OFF                                                          [Init: QSFP_OFF]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.panMaxRingA = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.panMaxRingB = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.personaInterfaceVersion = 1                                                         [Init: 1]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.qdr2Enable = false                                                                  [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.qdr2Frq = 550.0                                                                     [Init: 550.0]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.streamClks = 1                                                                      [Init: 1]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.streamFrq = [100.0]                                                                 [Init: [150.0], change: [100.0]]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.streamPs = [0]                                                                      [Init: [0]]
+Fri 10:33: INFO    : 	ManagerConfiguration.persona.usePCIeGen1 = false                                                                 [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.simulation.nativeFloatingPoint = false                                                      [Init: false]
+Fri 10:33: INFO    : 	ManagerConfiguration.streamClockFrq = 100                                                                        [Init: 100]
+Fri 10:33: INFO    : 	ManagerConfiguration.useLegacyStreamFIFOs = false                                                                [Init: false]
+Fri 10:33: INFO    : 
+Fri 10:33: INFO    :  -- 
+Fri 10:33: PROGRESS: 
+Fri 10:33: PROGRESS: Compiling kernel "SimpleKernel"
+Fri 10:33: INFO    : Configuration:
+Fri 10:33: INFO    : 	KernelConfiguration.additionalInputPipelining = 64                                          [Init: 64]
+Fri 10:33: INFO    : 	KernelConfiguration.allowDSPCascading = true                                                [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.allowInputsOutputsBeforeFlushNode = false                               [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.allowZeroLatencyNodeHold = false                                        [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.board = MAX3424A                                                        [Init: MAX2116B, change: MAX3424A]
+Fri 10:33: INFO    : 	KernelConfiguration.bramBitsThreshold = 2080                                                [Init: 2080]
+Fri 10:33: INFO    : 	KernelConfiguration.buildTarget = MAXCOMPILERSIM_HOST_DRIVEN                                [Init: NONE, change: MAXCOMPILERSIM_HOST_DRIVEN]
+Fri 10:33: INFO    : 	KernelConfiguration.cePipelining = 2                                                        [Init: 2]
+Fri 10:33: INFO    : 	KernelConfiguration.clockPhaseBalanceThreshold = 0.1                                        [Init: 0.1]
+Fri 10:33: INFO    : 	KernelConfiguration.clockPhasingRetries = 50                                                [Init: 50]
+Fri 10:33: INFO    : 	KernelConfiguration.dumpNeighboursString =                                                  [Init: ]
+Fri 10:33: INFO    : 	KernelConfiguration.enableCeReplication = true                                              [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.enableClockPhasePartitioning = false                                    [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.enableDebugIOControlRegs = true                                         [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.enableDummyBuild = false                                                [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.enableKernelProfiler = false                                            [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.enablePipelinedComputeController = false                                [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.enableShadowRegister = false                                            [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.enableSmartKernelControl = false                                        [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.fifoSrlRegisterStages = 1                                               [Init: 1]
+Fri 10:33: INFO    : 	KernelConfiguration.flushOnInputDataCongtiguous = false                                     [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.hardwareDebugDepth = 512                                                [Init: 512]
+Fri 10:33: INFO    : 	KernelConfiguration.hwHierarchyMode = UNSET                                                 [Init: UNSET]
+Fri 10:33: INFO    : 	KernelConfiguration.latencyAnnotation = false                                               [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.latencyAnnotationIOs =                                                  [Init: null]
+Fri 10:33: INFO    : 	KernelConfiguration.maxCoalescedFifoWidth = 2147483647                                      [Init: 2147483647]
+Fri 10:33: INFO    : 	KernelConfiguration.maxPreAdderFanOut = 1                                                   [Init: 1]
+Fri 10:33: INFO    : 	KernelConfiguration.netlistMode = false                                                     [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.numPhotonStateMachines = 1                                              [Init: 1]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.ceCounterRegisterDuplication = 1                          [Init: 1]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.conditionalArithmetic = false                             [Init: true, Init after BuildTarget change: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.counterChainWrapPipelining = 0                            [Init: 0]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.dspAddChain = OPTIMISE_IGNORE_PREADDER                    [Init: null, Init after BuildTarget change: OPTIMISE_IGNORE_PREADDER]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableActiveFanoutReduction = false                       [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableBUFGCE = false                                      [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableBetterInputRegistering = false                      [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableBetterRegistering = false                           [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableFIFOCoalescingAcrossPlacementConstraints = false    [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableFifoCoalescing = true                               [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableFullPrecisionBinaryOpConstants = false              [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableIntegratedRounding = false                          [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableMappedMemoryHostReadBack = true                     [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableMultiCycleReset = false                             [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enablePowerTwoFloatMult = true                            [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableRedundantNodeDeletion = true                        [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.enableStateMachineRegisterMerging = true                  [Init: true]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.inputFlushDistanceFactor = 0                              [Init: 0]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.minimumStaticFIFOSplitDepth = 1                           [Init: 1]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.optimizationTechnique = DEFAULT                           [Init: DEFAULT]
+Fri 10:33: INFO    : 	KernelConfiguration.optimizations.triAdd = false                                            [Init: true, Init after BuildTarget change: false]
+Fri 10:33: INFO    : 	KernelConfiguration.partialReconfBlockName =                                                [Init: ]
+Fri 10:33: INFO    : 	KernelConfiguration.partialReconfMode = false                                               [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.partialReconfTemplate = false                                           [Init: false]
+Fri 10:33: INFO    : 	KernelConfiguration.replicateNodeCeLog2NumPartitions = 0                                    [Init: 0]
+Fri 10:33: INFO    : 	KernelConfiguration.romBRAMBitsThreshold = 2080                                             [Init: 2080]
+Fri 10:33: INFO    : 	KernelConfiguration.simulation.ramAddressCollisionBehaviour = EXCEPTION                     [Init: EXCEPTION]
+Fri 10:33: INFO    : 	KernelConfiguration.simulation.ramOutOfBoundsAccessBehaviour = EXCEPTION                    [Init: EXCEPTION]
+Fri 10:33: INFO    : 	KernelConfiguration.simulation.simProgressMessageFrequency = 0                              [Init: 0]
+Fri 10:33: INFO    : 
+Fri 10:33: INFO    :  -- 
+Fri 10:33: WARNING : Warning (UNCONNECTED_DESIGN_ELEMENT):
+Fri 10:33: WARNING : Unconnected elements in design 'SimpleKernel'
+Fri 10:33: WARNING : details in : /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/SimpleKernel_graph_warnings.txt
+Fri 10:33: INFO    : Writing current graph to: Simple-SimpleKernel-original.pxg
+Fri 10:33: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Fri 10:34: INFO    : Graph-pass 'GeneratePXG' took 10.0002 s (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 116.861 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ReachabilityPass'.
+Fri 10:34: INFO    : Graph-pass 'ReachabilityPass' took 1.20015 s (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FindInputsLeadingToFlush'.
+Fri 10:34: INFO    : Graph-pass 'FindInputsLeadingToFlush' took 8.16211 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'CheckForStatefulToFlushViolations'.
+Fri 10:34: INFO    : Graph-pass 'CheckForStatefulToFlushViolations' took 10.4665 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'CheckForInputToFlushViolations'.
+Fri 10:34: INFO    : Graph-pass 'CheckForInputToFlushViolations' took 51.7330 ms (1 iterations)
+Fri 10:34: INFO    : Deleting directory: neighbours
+Fri 10:34: INFO    : Running Photon pre-schedule graph optimisations
+Fri 10:34: INFO    : Running kernel graph-pass 'AlignOrEradicatePrintfs'.
+Fri 10:34: INFO    : Graph-pass 'AlignOrEradicatePrintfs' took 44.3295 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FoldConstantsPass'.
+Fri 10:34: INFO    : Graph-pass 'FoldConstantsPass' took 2.58375 s (2 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'OptimiseNodesPass'.
+Fri 10:34: INFO    : Graph-pass 'OptimiseNodesPass' took 1.44290 s (2 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'DeleteRedundantNodes'.
+Fri 10:34: INFO    : Graph-pass 'DeleteRedundantNodes' took 103.242 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'DSPMultiplyAddExtractionPass'.
+Fri 10:34: INFO    : Optimized 0 sub-graphs into DSP multiply/add chains (Virtex5 mode).
+Fri 10:34: INFO    : Graph-pass 'DSPMultiplyAddExtractionPass' took 746.648 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'PO2FPMultOptimiser'.
+Fri 10:34: INFO    : Graph-pass 'PO2FPMultOptimiser' took 2.61637 s (2 iterations)
+Fri 10:34: INFO    : Running Photon simulation preparation
+Fri 10:34: INFO    : Running kernel graph-pass 'PrepareSimulationPass'.
+Fri 10:34: INFO    : Graph-pass 'PrepareSimulationPass' took 6.56699 ms (1 iterations)
+Fri 10:34: INFO    : Logging Photon stats to: SimpleKernel_photon_stats.csv
+Fri 10:34: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/SimpleKernel_photon_stats.csv
+Fri 10:34: INFO    : Running kernel graph-pass 'StatsPass'.
+Fri 10:34: INFO    : Graph-pass 'StatsPass' took 134.789 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'CollectNumericExceptions'.
+Fri 10:34: INFO    : Graph-pass 'CollectNumericExceptions' took 7.47688 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'StreamOffsetDivExpand'.
+Fri 10:34: INFO    : Graph-pass 'StreamOffsetDivExpand' took 11.9314 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FindIllegalLoops'.
+Fri 10:34: INFO    : Graph-pass 'FindIllegalLoops' took 306.660 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 173.539 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleVariables'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleVariables' took 44.1067 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Fri 10:34: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 50.6322 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleApplier' took 20.1076 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 36.6909 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleDumper' took 23.4191 ms (1 iterations)
+Fri 10:34: INFO    : Running Photon post-schedule graph optimisations (pass 1)
+Fri 10:34: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Fri 10:34: INFO    : Graph-pass 'TapFIFOsPass' took 143.911 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Fri 10:34: INFO    : Graph-pass 'FoldFIFOsPass' took 12.0441 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 8.69656 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ValidateFIFOs'.
+Fri 10:34: INFO    : Graph-pass 'ValidateFIFOs' took 3.17754 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 20.6975 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleDumper' took 5.59245 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 27.1193 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleConstants'.
+Fri 10:34: INFO    : Running command: cbc "SimpleKernel_schedule_C.mps.gz" -solve  -printi csv -solu "SimpleKernel_schedule_C.csv" > "SimpleKernel_schedule_C.stdout.log"
+Fri 10:34: INFO    : Checking for file hash changes...
+Fri 10:34: INFO    : No changes.
+Fri 10:34: INFO    : Optimum found: 0
+Fri 10:34: INFO    : Graph-pass 'ScheduleConstants' took 147.504 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 17.2392 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleDumper' took 6.42996 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Fri 10:34: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 12.1413 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'RemoveDistMeasurementNodes'.
+Fri 10:34: INFO    : Graph-pass 'RemoveDistMeasurementNodes' took 21.0330 µs (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleApplier' took 14.6932 ms (1 iterations)
+Fri 10:34: INFO    : Maximum stream latency for kernel 'SimpleKernel': 5
+Fri 10:34: INFO    : Using user logic for flush.
+Fri 10:34: INFO    : Running Photon post-schedule graph optimisations (pass 2)
+Fri 10:34: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Fri 10:34: INFO    : Graph-pass 'TapFIFOsPass' took 69.4324 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Fri 10:34: INFO    : Graph-pass 'FoldFIFOsPass' took 3.70820 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 6.79930 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ScheduleAsserter'.
+Fri 10:34: INFO    : Graph-pass 'ScheduleAsserter' took 8.99353 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'ReplaceEvalStreamOffsetNodes'.
+Fri 10:34: INFO    : Graph-pass 'ReplaceEvalStreamOffsetNodes' took 2.89972 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'FIFOReport'.
+Fri 10:34: INFO    : Graph-pass 'FIFOReport' took 3.42505 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'StatsPass'.
+Fri 10:34: INFO    : Graph-pass 'StatsPass' took 122.857 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'RemoveUntypedConstants'.
+Fri 10:34: WARNING : Warning (CONSTANT_ENCODING):
+Fri 10:34: WARNING : Precision loss occurred in some constant values.
+Fri 10:34: WARNING : For details see /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/SimpleKernel_constants_report.txt
+Fri 10:34: INFO    : Graph-pass 'RemoveUntypedConstants' took 2.93157 s (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'VariableSizeMappedRegInserter'.
+Fri 10:34: INFO    : Graph-pass 'VariableSizeMappedRegInserter' took 5.59281 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 14.1502 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MakeMaxFileNodeData'.
+Fri 10:34: INFO    : Graph-pass 'MakeMaxFileNodeData' took 944.211 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MoveFanoutRegsForwards'.
+Fri 10:34: INFO    : Graph-pass 'MoveFanoutRegsForwards' took 5.04688 ms (1 iterations)
+Fri 10:34: INFO    : Optimization report for Kernel 'SimpleKernel'.
+Fri 10:34: INFO    : Enabled optimizations:
+Fri 10:34: INFO    : 	DSP-Multiplication
+Fri 10:34: INFO    : 	Power-of-2 Floating Point
+Fri 10:34: INFO    : Creating a preliminary MaxCompilerDesignData.dat. (@ CoreCompile SimpleKernel)
+Fri 10:34: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/MaxCompilerDesignData.dat
+Fri 10:34: INFO    : Total compilation of 'SimpleKernel' took 52.3258 s.
+Fri 10:34: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Fri 10:34: INFO    : Graph-pass 'MarkConstantPass' took 23.7455 ms (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'MaxConstantLatency'.
+Fri 10:34: INFO    : Graph-pass 'MaxConstantLatency' took 1.24746 s (1 iterations)
+Fri 10:34: INFO    : Running kernel graph-pass 'SimCodeGraphPass'.
+Fri 10:34: INFO    : Graph-pass 'SimCodeGraphPass' took 2.61286 s (1 iterations)
+Fri 10:34: INFO    : Writing current graph to: Simple-SimpleKernel-final-simulation.pxg
+Fri 10:34: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Fri 10:34: INFO    : Graph-pass 'GeneratePXG' took 3.65897 s (1 iterations)
+Fri 10:34: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/Manager_Simple.graphs
+Fri 10:34: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Fri 10:34: INFO    : Running manager compiler graph-pass: ScheduleStallLatency
+Fri 10:34: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Fri 10:34: INFO    : Running manager compiler graph-pass: InsertDualAspectLogic
+Fri 10:34: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Fri 10:34: INFO    : Running manager compiler graph-pass: InsertPullPushAdapter
+Fri 10:34: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Fri 10:34: INFO    : Running manager compiler graph-pass: InsertStreamFifos
+Fri 10:34: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Fri 10:34: INFO    : Running manager compiler graph-pass: InsertStreamStatus
+Fri 10:34: INFO    : Running manager compiler graph-pass: InsertChipscope
+Fri 10:34: INFO    : Inserted 0 chipscope manager nodes.
+Fri 10:34: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Fri 10:34: INFO    : Running manager compiler graph-pass: ReportClockAssignments
+Fri 10:34: INFO    : Running manager compiler graph-pass: BuildSoftwareSim
+Fri 10:34: INFO    : Mapped register report:
+Fri 10:34: INFO    : 	0	S	4bytes
+Fri 10:34: INFO    : 	4	K	4bytes
+Fri 10:34: INFO    : 	8	r	4bytes
+Fri 10:34: INFO    : 	c	sigma	4bytes
+Fri 10:34: INFO    : 	10	time	4bytes
+Fri 10:34: INFO    : 	14	io_y_force_disabled	1bytes
+Fri 10:34: INFO    : 	15	run_cycle_count	6bytes
+Fri 10:34: INFO    : 	1b	current_run_cycle_count	6bytes
+Fri 10:34: INFO    : 	21	dbg_ctld_almost_empty	1bytes
+Fri 10:34: INFO    : 	22	dbg_ctld_done	1bytes
+Fri 10:34: INFO    : 	23	dbg_ctld_empty	1bytes
+Fri 10:34: INFO    : 	24	dbg_ctld_read	1bytes
+Fri 10:34: INFO    : 	25	dbg_ctld_read_pipe_dbg	1bytes
+Fri 10:34: INFO    : 	26	dbg_ctld_request	1bytes
+Fri 10:34: INFO    : 	27	dbg_done_out	1bytes
+Fri 10:34: INFO    : 	28	dbg_fill_level	1bytes
+Fri 10:34: INFO    : 	29	dbg_flush_level	1bytes
+Fri 10:34: INFO    : 	2a	dbg_flush_start	1bytes
+Fri 10:34: INFO    : 	2b	dbg_flush_start_level	1bytes
+Fri 10:34: INFO    : 	2c	dbg_flushing	1bytes
+Fri 10:34: INFO    : 	2d	dbg_full_level	1bytes
+Fri 10:34: INFO    : 	2e	dbg_out_stall	1bytes
+Fri 10:34: INFO    : 	2f	dbg_out_valid	1bytes
+Fri 10:34: INFO    : 	30	dbg_stall_vector	1bytes
+Fri 10:34: INFO    : 	31	ifpga_ctrl	1bytes
+Fri 10:34: INFO    : 	32	SFA_FORWARD_EN	4bytes
+Fri 10:34: INFO    : Mapped register chain length = 54
+Fri 10:34: INFO    : Mapped register efficiency = 0.74 (321 / 432 bits)
+Fri 10:34: INFO    : Mapped memory report:
+Fri 10:34: INFO    : 	No mapped memories in this design.
+Fri 10:34: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Fri 10:34: INFO    : Running manager compiler graph-pass: GenerateSlicHostCode
+Fri 10:34: INFO    : Generating SLIC interface information
+Fri 10:34: INFO    : Generating SLIC code for interface 'default'
+Fri 10:34: INFO    : Skipping blacklisted scalar parameter 'SimpleKernel.current_run_cycle_count'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[0]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[1]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[2]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[3]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[4]'
+Fri 10:34: INFO    : Generating XML description for Maxfile
+Fri 10:34: INFO    : Generating XML description for mode 'default'
+Fri 10:34: INFO    : Skipping blacklisted scalar parameter 'SimpleKernel.current_run_cycle_count'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[0]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[1]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[2]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[3]'
+Fri 10:34: INFO    : Interface 'default' depends on parameter 'parameter[4]'
+Fri 10:34: INFO    : Adding SLIC sections to the maxfile
+Fri 10:34: INFO    : Adding user files to the maxfile
+Fri 10:34: INFO    : Generating SLIC include file
+Fri 10:34: INFO    : Done generating SLIC interface information
+Fri 10:34: PROGRESS: Running back-end simulation build (3 phases)
+Fri 10:34: PROGRESS: (1/3) - Prepare MaxFile Data (GenerateMaxFileDataFile)
+Fri 10:34: INFO    : Build pass 'GenerateMaxFileDataFile' took 293.135 ms.
+Fri 10:34: PROGRESS: (2/3) - Compile Simulation Modules (SimCompilePass)
+Fri 10:34: INFO    : Running command: make -j1
+Fri 10:34: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -x c++-header \
+Fri 10:34: INFO    : 		-o stdsimheader.h.gch/O0_stdsimheader.h.gch stdsimheader.h
+Fri 10:35: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -x c++-header \
+Fri 10:35: INFO    : 		-o stdsimheader.h.gch/NoTplInst_O2_stdsimheader.h.gch stdsimheader.h
+Fri 10:36: INFO    : make Simple.so
+Fri 10:36: INFO    : make[1]: Entering directory `/home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/software-sim/build'
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec0.NoTplInst.O2.o SimpleKernel_exec0.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec0.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec0.cpp > objdir/SimpleKernel_exec0.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec1.NoTplInst.O2.o SimpleKernel_exec1.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec1.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec1.cpp > objdir/SimpleKernel_exec1.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec2.NoTplInst.O2.o SimpleKernel_exec2.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec2.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec2.cpp > objdir/SimpleKernel_exec2.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec3.NoTplInst.O2.o SimpleKernel_exec3.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec3.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec3.cpp > objdir/SimpleKernel_exec3.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec4.NoTplInst.O2.o SimpleKernel_exec4.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec4.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec4.cpp > objdir/SimpleKernel_exec4.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec5.NoTplInst.O2.o SimpleKernel_exec5.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec5.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec5.cpp > objdir/SimpleKernel_exec5.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec6.NoTplInst.O2.o SimpleKernel_exec6.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec6.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec6.cpp > objdir/SimpleKernel_exec6.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec7.NoTplInst.O2.o SimpleKernel_exec7.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec7.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec7.cpp > objdir/SimpleKernel_exec7.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec8.NoTplInst.O2.o SimpleKernel_exec8.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec8.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec8.cpp > objdir/SimpleKernel_exec8.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec9.NoTplInst.O2.o SimpleKernel_exec9.cpp
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec9.NoTplInst.O2.o \
+Fri 10:36: INFO    : 		SimpleKernel_exec9.cpp > objdir/SimpleKernel_exec9.NoTplInst.O2.d
+Fri 10:36: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec10.NoTplInst.O2.o SimpleKernel_exec10.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec10.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec10.cpp > objdir/SimpleKernel_exec10.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec11.NoTplInst.O2.o SimpleKernel_exec11.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec11.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec11.cpp > objdir/SimpleKernel_exec11.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec12.NoTplInst.O2.o SimpleKernel_exec12.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec12.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec12.cpp > objdir/SimpleKernel_exec12.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec13.NoTplInst.O2.o SimpleKernel_exec13.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec13.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec13.cpp > objdir/SimpleKernel_exec13.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec14.NoTplInst.O2.o SimpleKernel_exec14.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec14.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec14.cpp > objdir/SimpleKernel_exec14.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec15.NoTplInst.O2.o SimpleKernel_exec15.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec15.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec15.cpp > objdir/SimpleKernel_exec15.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec16.NoTplInst.O2.o SimpleKernel_exec16.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec16.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec16.cpp > objdir/SimpleKernel_exec16.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec17.NoTplInst.O2.o SimpleKernel_exec17.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec17.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec17.cpp > objdir/SimpleKernel_exec17.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec18.NoTplInst.O2.o SimpleKernel_exec18.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec18.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec18.cpp > objdir/SimpleKernel_exec18.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec19.NoTplInst.O2.o SimpleKernel_exec19.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec19.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec19.cpp > objdir/SimpleKernel_exec19.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec20.NoTplInst.O2.o SimpleKernel_exec20.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec20.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec20.cpp > objdir/SimpleKernel_exec20.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec21.NoTplInst.O2.o SimpleKernel_exec21.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec21.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec21.cpp > objdir/SimpleKernel_exec21.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec22.NoTplInst.O2.o SimpleKernel_exec22.cpp
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec22.NoTplInst.O2.o \
+Fri 10:37: INFO    : 		SimpleKernel_exec22.cpp > objdir/SimpleKernel_exec22.NoTplInst.O2.d
+Fri 10:37: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec23.NoTplInst.O2.o SimpleKernel_exec23.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec23.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec23.cpp > objdir/SimpleKernel_exec23.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec24.NoTplInst.O2.o SimpleKernel_exec24.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec24.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec24.cpp > objdir/SimpleKernel_exec24.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec25.NoTplInst.O2.o SimpleKernel_exec25.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec25.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec25.cpp > objdir/SimpleKernel_exec25.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec26.NoTplInst.O2.o SimpleKernel_exec26.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec26.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec26.cpp > objdir/SimpleKernel_exec26.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec27.NoTplInst.O2.o SimpleKernel_exec27.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec27.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec27.cpp > objdir/SimpleKernel_exec27.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec28.NoTplInst.O2.o SimpleKernel_exec28.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec28.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec28.cpp > objdir/SimpleKernel_exec28.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec29.NoTplInst.O2.o SimpleKernel_exec29.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec29.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec29.cpp > objdir/SimpleKernel_exec29.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec30.NoTplInst.O2.o SimpleKernel_exec30.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec30.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec30.cpp > objdir/SimpleKernel_exec30.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec31.NoTplInst.O2.o SimpleKernel_exec31.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec31.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec31.cpp > objdir/SimpleKernel_exec31.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec32.NoTplInst.O2.o SimpleKernel_exec32.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec32.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec32.cpp > objdir/SimpleKernel_exec32.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec33.NoTplInst.O2.o SimpleKernel_exec33.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec33.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec33.cpp > objdir/SimpleKernel_exec33.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec34.NoTplInst.O2.o SimpleKernel_exec34.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec34.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec34.cpp > objdir/SimpleKernel_exec34.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec35.NoTplInst.O2.o SimpleKernel_exec35.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec35.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec35.cpp > objdir/SimpleKernel_exec35.NoTplInst.O2.d
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec36.NoTplInst.O2.o SimpleKernel_exec36.cpp
+Fri 10:38: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec36.NoTplInst.O2.o \
+Fri 10:38: INFO    : 		SimpleKernel_exec36.cpp > objdir/SimpleKernel_exec36.NoTplInst.O2.d
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec37.NoTplInst.O2.o SimpleKernel_exec37.cpp
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec37.NoTplInst.O2.o \
+Fri 10:39: INFO    : 		SimpleKernel_exec37.cpp > objdir/SimpleKernel_exec37.NoTplInst.O2.d
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec38.NoTplInst.O2.o SimpleKernel_exec38.cpp
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec38.NoTplInst.O2.o \
+Fri 10:39: INFO    : 		SimpleKernel_exec38.cpp > objdir/SimpleKernel_exec38.NoTplInst.O2.d
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec39.NoTplInst.O2.o SimpleKernel_exec39.cpp
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec39.NoTplInst.O2.o \
+Fri 10:39: INFO    : 		SimpleKernel_exec39.cpp > objdir/SimpleKernel_exec39.NoTplInst.O2.d
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_exec40.NoTplInst.O2.o SimpleKernel_exec40.cpp
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_exec40.NoTplInst.O2.o \
+Fri 10:39: INFO    : 		SimpleKernel_exec40.cpp > objdir/SimpleKernel_exec40.NoTplInst.O2.d
+Fri 10:39: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/SimpleKernel.O0.o SimpleKernel.cpp
+Fri 10:41: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel.O0.o \
+Fri 10:41: INFO    : 		SimpleKernel.cpp > objdir/SimpleKernel.O0.d
+Fri 10:41: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/SimpleKernel_Templates.O2.o SimpleKernel_Templates.cpp
+Fri 10:41: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/SimpleKernel_Templates.O2.o \
+Fri 10:41: INFO    : 		SimpleKernel_Templates.cpp > objdir/SimpleKernel_Templates.O2.d
+Fri 10:41: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -c -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/max_msi.O0.o max_msi.cpp
+Fri 10:42: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -I/usr/include/x86_64-linux-gnu -fPIC -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/max_msi.O0.o \
+Fri 10:42: INFO    : 		max_msi.cpp > objdir/max_msi.O0.d
+Fri 10:42: INFO    : /opt/maxeler/maxcompiler/lib/gcc/bin/g++ -fPIC -shared -B/usr/lib/x86_64-linux-gnu -L/opt/maxeler/maxcompiler/lib/boost/lib -lboost_thread -lboost_system -lboost_filesystem -lrt -pthread -O2 -s  -o Simple.so objdir/SimpleKernel_exec0.NoTplInst.O2.o objdir/SimpleKernel_exec1.NoTplInst.O2.o objdir/SimpleKernel_exec2.NoTplInst.O2.o objdir/SimpleKernel_exec3.NoTplInst.O2.o objdir/SimpleKernel_exec4.NoTplInst.O2.o objdir/SimpleKernel_exec5.NoTplInst.O2.o objdir/SimpleKernel_exec6.NoTplInst.O2.o objdir/SimpleKernel_exec7.NoTplInst.O2.o objdir/SimpleKernel_exec8.NoTplInst.O2.o objdir/SimpleKernel_exec9.NoTplInst.O2.o objdir/SimpleKernel_exec10.NoTplInst.O2.o objdir/SimpleKernel_exec11.NoTplInst.O2.o objdir/SimpleKernel_exec12.NoTplInst.O2.o objdir/SimpleKernel_exec13.NoTplInst.O2.o objdir/SimpleKernel_exec14.NoTplInst.O2.o objdir/SimpleKernel_exec15.NoTplInst.O2.o objdir/SimpleKernel_exec16.NoTplInst.O2.o objdir/SimpleKernel_exec17.NoTplInst.O2.o objdir/SimpleKernel_exec18.NoTplInst.O2.o objdir/SimpleKernel_exec19.NoTplInst.O2.o objdir/SimpleKernel_exec20.NoTplInst.O2.o objdir/SimpleKernel_exec21.NoTplInst.O2.o objdir/SimpleKernel_exec22.NoTplInst.O2.o objdir/SimpleKernel_exec23.NoTplInst.O2.o objdir/SimpleKernel_exec24.NoTplInst.O2.o objdir/SimpleKernel_exec25.NoTplInst.O2.o objdir/SimpleKernel_exec26.NoTplInst.O2.o objdir/SimpleKernel_exec27.NoTplInst.O2.o objdir/SimpleKernel_exec28.NoTplInst.O2.o objdir/SimpleKernel_exec29.NoTplInst.O2.o objdir/SimpleKernel_exec30.NoTplInst.O2.o objdir/SimpleKernel_exec31.NoTplInst.O2.o objdir/SimpleKernel_exec32.NoTplInst.O2.o objdir/SimpleKernel_exec33.NoTplInst.O2.o objdir/SimpleKernel_exec34.NoTplInst.O2.o objdir/SimpleKernel_exec35.NoTplInst.O2.o objdir/SimpleKernel_exec36.NoTplInst.O2.o objdir/SimpleKernel_exec37.NoTplInst.O2.o objdir/SimpleKernel_exec38.NoTplInst.O2.o objdir/SimpleKernel_exec39.NoTplInst.O2.o objdir/SimpleKernel_exec40.NoTplInst.O2.o objdir/SimpleKernel.O0.o objdir/SimpleKernel_Templates.O2.o objdir/max_msi.O0.o StructToGroupDummy.o Mux.o DualAspectMux.o Demux.o Fanout.o CapRegs.o IFPGARegs.o ChecksumMem.o PCIe.o KernelManagerBlockSync.o DualAspectReg.o PullPushAdapter.o FilePullSource.o max_shared_fifo.o SharedFIFO.o Fifos.o FilePushSink.o SimTerminator.o Watch.o StreamStatus.o RunLengthExpander.o ManagerBlock.o MappedElements.o ManagerSync.o PullSync.o PushSync.o DynamicVarUInt.o SimException.o DebugStreams.o AddressGenerator.o MemoryControllerPro.o MemoryControllerRAM.o MemoryControllerCommand.o MemoryControllerStreams.o MemoryControllerConfig.o TCP.o Ethernet.o Timestamp.o /opt/maxeler/maxcompiler/lib/lwip_sim/lib/liblwip.a
+Fri 10:42: INFO    : make[1]: Leaving directory `/home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/scratch/software-sim/build'
+Fri 10:42: INFO    : Build pass 'SimCompilePass' took 451.015 s.
+Fri 10:42: PROGRESS: (3/3) - Generate MaxFile (AddSimObjectToMaxFilePass)
+Fri 10:42: INFO    : Build pass 'AddSimObjectToMaxFilePass' took 6.30827 s.
+Fri 10:42: INFO    : Final result files after build: 
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/Simple-SimpleKernel-original.pxg"
+Fri 10:42: INFO    : Simple-SimpleKernel-original.pxg (BuildFilePXG)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/SimpleKernel_Configuration.txt"
+Fri 10:42: INFO    : SimpleKernel_Configuration.txt (BuildFile)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/SimpleKernel_NodeDiary.txt"
+Fri 10:42: INFO    : SimpleKernel_NodeDiary.txt (BuildFile)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/Simple-SimpleKernel-final-simulation.pxg"
+Fri 10:42: INFO    : Simple-SimpleKernel-final-simulation.pxg (BuildFilePXG)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/Simple.xml"
+Fri 10:42: INFO    : Simple.xml (BuildFile)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/Simple.h"
+Fri 10:42: INFO    : Simple.h (BuildFileSlicH)
+Fri 10:42: INFO    : Running command: ln -sf "../scratch/Simple.max"
+Fri 10:42: INFO    : Simple.max (BuildFileMaxFile)
+Fri 10:42: INFO    : Result files will be copied to '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/maxfiles'
+Fri 10:42: INFO    : Result 'Simple-SimpleKernel-original.pxg' is identical to '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/maxfiles/Simple-SimpleKernel-original.pxg': not overwriting.
+Fri 10:42: INFO    : Result 'Simple-SimpleKernel-final-simulation.pxg' is identical to '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/maxfiles/Simple-SimpleKernel-final-simulation.pxg': not overwriting.
+Fri 10:42: INFO    : Result 'Simple.h' is identical to '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/maxfiles/Simple.h': not overwriting.
+Fri 10:42: INFO    : Result 'Simple.max' is identical to '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/maxfiles/Simple.max': not overwriting.
+Fri 10:42: PROGRESS: MaxFile: /home/demo/Desktop/MaxCompiler-Builds/Simple_VECTIS_DFE_SIM/results/Simple.max (MD5Sum: 33be68c30835cb98e4a3e0f015ee2ad1)
+Fri 10:42: INFO    : Waiting for any outstanding jobs to finish... 
+Fri 10:42: PROGRESS: Build completed: Fri Mar 13 10:42:33 PDT 2015 (took 8 mins, 54 secs)

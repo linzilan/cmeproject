@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagerGraph version="2014.2 (simulation only)" design_name="Manager_Simple" compilation_phase="Original" hardwareBuild="false">
+	<Node id="0" instanceName="SimpleKernel" type="Kernel">
+		<PxgFile phase="original">Simple-SimpleKernel-original.pxg</PxgFile>
+		<PxgFile phase="final-simulation">Simple-SimpleKernel-final-simulation.pxg</PxgFile>
+		<Output clock="STREAM" name="y" type="PUSH 5" width="32">
+			<Stream name="Stream_1" sink="2" />
+		</Output>
+	</Node>
+	<Node id="2" instanceName="y" type="OutputFlexibleClock">
+		<Input clock="STREAM" name="y" type="PUSH 64" width="128">
+			<Stream name="Stream_3" source="0" />
+		</Input>
+	</Node>
+</ManagerGraph>

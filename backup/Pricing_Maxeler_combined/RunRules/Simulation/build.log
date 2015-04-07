@@ -1,0 +1,53 @@
+Thu 14:59: ########################################## 
+Thu 14:59: Compiling.
+Thu 14:59: ########################################## 
+
+Thu 14:59: MaxCompiler version: 2014.1.1 (simulation only).
+Thu 14:59: Build Simulation run rule for tutorial-chap04-example2-simplekernel start time: Thu Mar 12 14:59:17 PDT 2015.
+Thu 14:59: Project location: /home/demo/workspace/tutorial-chap04-example2-simplekernel.
+Thu 14:59: Detailed build log: /home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/build.log.
+
+Thu 14:59: Compiling Engine Code.
+Thu 14:59: Engine building skipped (no changes on .max files).
+Thu 14:59: Compiling CPU Code.
+Thu 14:59: Run CPU project make files updating
+Thu 14:59: Executing command:
+Thu 14:59: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/tutorial-chap04-example2-simplekernel Simulation 
+Thu 14:59: Command output:
+
+Thu 14:59: MaxCompiler Project Admin Tool Version 2014.1.1
+Thu 14:59:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
+Thu 14:59: Handler version 1
+Thu 14:59: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Thu 14:59: Found makefiles: 1
+Thu 14:59: 	Updated: Simulation
+Thu 14:59: Run CPU make.
+Thu 14:59: make RUNRULE=Simulation 
+Thu 14:59: Command output:
+Thu 14:59: make -f Makefile ../RunRules/Simulation/binaries/Simple
+Thu 14:59: make[1]: Entering directory `/home/demo/workspace/tutorial-chap04-example2-simplekernel/CPUCode'
+Thu 14:59: cc -g -O3 -Wall -Wextra -fmessage-length=0 -I ../RunRules/Simulation/include -I. -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/include/slic -D_XOPEN_SOURCE=600  -std=c99 -DBUILDNAME_MAXFILE_1=Simple -DMAXFILE_1="Simple.max"  -o "../RunRules/Simulation/objects/SimpleCpuCode.o" -c "SimpleCpuCode.c"
+Thu 14:59: cc -g -O3 -Wall -Wextra -fmessage-length=0 -I ../RunRules/Simulation/include -I. -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/include/slic -D_XOPEN_SOURCE=600  -std=c99 -DBUILDNAME_MAXFILE_1=Simple -DMAXFILE_1="Simple.max"  -MM -MP -MT "../RunRules/Simulation/objects/SimpleCpuCode.o" "SimpleCpuCode.c" > "../RunRules/Simulation/objects/SimpleCpuCode.d"
+Thu 14:59: cc ../RunRules/Simulation/objects/SimpleCpuCode.o ../RunRules/Simulation/objects/slic_Simple.o  -L/opt/maxeler/maxcompiler/lib -L/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib -lslic -lmaxeleros -lm -lpthread  -o "../RunRules/Simulation/binaries/Simple"
+Thu 14:59: make[1]: Leaving directory `/home/demo/workspace/tutorial-chap04-example2-simplekernel/CPUCode'
+Thu 14:59: Build completed: Thu Mar 12 14:59:19 PDT 2015
+
+
+Thu 14:59: ########################################## 
+Thu 14:59: Running
+Thu 14:59: ########################################## 
+Thu 14:59: Executing command:
+Thu 14:59: '/home/demo/workspace/tutorial-chap04-example2-simplekernel/RunRules/Simulation/binaries/Simple' 
+Thu 14:59: Command output:
+Thu 14:59: Price = 1.817349 1.870272
+Thu 14:59: Price = 1.817349 1.870272
+Thu 14:59: Price = 1.817713 1.870647
+Thu 14:59: Price = 1.849046 1.902893
+Thu 14:59: Price = 1.817713 1.870647
+Thu 14:59: Price = 1.818078 1.871023
+Thu 14:59: Price = 1.818078 1.871023
+Thu 15:00: Price = 1.818078 1.871023
+Thu 15:00: Price = 1.818078 1.871023
+Thu 15:00: Price = 1.818078 1.871023
+Thu 15:00: Price = 1.818078 1.871023
+Thu 15:00: Process terminated with exit code 0.

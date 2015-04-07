@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maxCompilerManager version="2">
+<enginePart internalEngineSubproject="csvinput_call_EngineCode" isSrcBin="false" isUseDefaultSelected="false" outputLocation="/csvinput_call_EngineCode/bin" projectName="csvinput_call"/>
+<cpuPart internalCpuSubproject="csvinput_call_CPUCode"/>
+<watchedFiles/>
+</maxCompilerManager>
