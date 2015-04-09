@@ -49,7 +49,7 @@ public class BAWManager {
 	private static void configBuild(Manager manager, BAWEngineParameters params) {
 		manager.setEnableStreamStatusBlocks(false);
 		BuildConfig buildConfig = manager.getBuildConfig();
-		buildConfig.setBuildEffort(Effort.MEDIUM);
+		buildConfig.setBuildEffort(Effort.VERY_HIGH);
 		//buildConfig.setMPPRCostTableSearchRange(params.getMPPRStartCT(), params.getMPPREndCT());
 		//buildConfig.setMPPRParallelism(params.getMPPRThreads());
 		//buildConfig.setMPPRRetryNearMissesThreshold(params.getMPPRRetryThreshold());

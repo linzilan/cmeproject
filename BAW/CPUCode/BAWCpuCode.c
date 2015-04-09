@@ -60,8 +60,8 @@ inline double option_price_put_black_scholes( const double *S,      // spot pric
 int main()
 {
 
-	FILE* call_option_stream = fopen("/home/demo/Desktop/put_merge_output.csv", "r");
-	FILE *output = fopen("/home/demo/Desktop/put_merge_output_result.csv", "w");
+	FILE* call_option_stream = fopen("/home/demo/Desktop/call_merge_output.csv", "r");
+	FILE *output = fopen("/home/demo/Desktop/call_merge_output_result.csv", "w");
 	//FILE* put_option_stream = fopen("/home/demo/Desktop/put_merge_output.csv", "r");
 
 	//7081 line for call
@@ -126,16 +126,16 @@ int main()
      i=0;
 	//for(i=0;i<7081;i++)printf("Underly = %f, ttm = %f, bid = %f, ask = %f, strike = %f\n",underlying[i],time_to_maturity[i],bid[i],ask[i],strike[i]);
 
-int sample_size = 1000;
+int sample_size = 500;
 
 double sigma = 0;
          //calculate Implied volatility by bisection method
-         int type = 1;//for call option, or 1 for put option
+         int type = 0;//for call option, or 1 for put option
          int idx=0;
          int idx_factor=0;
 
 
-         double interest_rate = 0.08;
+         double interest_rate = 0.06;
 
          while(idx+idx_factor<sample_size)
          {
@@ -205,11 +205,12 @@ double sigma = 0;
     for(int i=0;i<size;i++){
     	price_arr[i] = underlying[i];
     	strike_arr[i] = strike[i];
+    	ttm[i]=time_to_maturity[i];
     	rate[i]=interest_rate;//test value
     	sigma_test[i]=sample_sigma;//test value
     	call_price[i]=0;
     	put_price[i]=0;
-    	ttm[i]=time_to_maturity[i];
+
     }
 
    long sizeBytes = size * sizeof(float);
@@ -218,21 +219,21 @@ double sigma = 0;
 	if(type==0)
 	{
 		//header printing
-			fprintf(output,"S,K,r,sigma,TTM,Call,Market,Error\n");
+			fprintf(output,"S,K,r,sigma,TTM,Call,Bid,Ask\n");
 		for(int i=0;i<size;i++)
 		{
-		printf("%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],call_price[i],midprice[i],fabs(call_price[i]-midprice[i]));
-		fprintf(output,"%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],call_price[i],midprice[i],fabs(call_price[i]-midprice[i]));
+		printf("%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],call_price[i],bid[i],ask[i]);
+		fprintf(output,"%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],call_price[i],bid[i],ask[i]);
 		}
 	}
 
 	else{
 		//header printing
-			fprintf(output,"S,K,r,sigma,TTM,Put,Market,Error\n");
+			fprintf(output,"S,K,r,sigma,TTM,Put,Bid,Ask\n");
 		for(int i=0;i<size;i++)
 				{
-				printf("%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],put_price[i],midprice[i],fabs(put_price[i]-midprice[i]));
-				fprintf(output,"%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],put_price[i],midprice[i],fabs(put_price[i]-midprice[i]));
+				printf("%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],put_price[i],bid[i],ask[i]);
+				fprintf(output,"%f,%f,%f,%f,%f,%f,%f,%f\n", underlying[i],strike[i],interest_rate,sample_sigma,time_to_maturity[i],put_price[i],bid[i],ask[i]);
 				}
 	}
 
