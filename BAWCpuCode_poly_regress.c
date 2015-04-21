@@ -201,10 +201,10 @@ int main()
 
     typedef struct prev_date data;
 
-    FILE* call_march_stream = fopen("/home/demo/Desktop/result/call_march.csv", "w");
-    FILE* put_march_stream = fopen("/home/demo/Desktop/result/put_march.csv", "w");
-    FILE* call_april_stream = fopen("/home/demo/Desktop/result/call_april.csv", "w");
-    FILE* put_april_stream = fopen("/home/demo/Desktop/result/put_april.csv", "w");
+    FILE* call_march_stream = fopen("/home/demo/Desktop/call_march.csv", "w");
+    FILE* put_march_stream = fopen("/home/demo/Desktop/put_march.csv", "w");
+    FILE* call_april_stream = fopen("/home/demo/Desktop/call_april.csv", "w");
+    FILE* put_april_stream = fopen("/home/demo/Desktop/put_april.csv", "w");
 
     data prev_data_call_march;
     data prev_data_call_april;
