@@ -1,5 +1,0 @@
-#
-# This file is managed by MaxIDE. Do NOT change.
-#
-HEADERS:= include/BAW.h slic/MaxSLiCInterface.h slic/slic_actarray.h slic/slic_actions.h slic/slic_compiler.h slic/slic_configuration.h slic/slic_engarray.h slic/slic_engine.h slic/slic_error.h slic/slic_error_list.h slic/slic_event_monitoring.h slic/slic_framed_streams.h slic/slic_group.h slic/slic_llstream.h slic/slic_maxfile.h slic/slic_mem.h slic/slic_network.h slic/slic_private/slic_private_maxfileinit.h slic/slic_private/slic_private_type.h slic/slic_private/slic_private_typedefs.h slic/slic_run.h slic/slic_scalar.h slic/slic_stream.h slic/slic_tcp.h slic/slic_topology.h slic/slic_typedefs.h slic/slic_udp.h 
-SOURCES:= BAWCpuCode.c 
