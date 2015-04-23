@@ -1,0 +1,71 @@
+Sun 11:21: ########################################## 
+Sun 11:21: Compiling.
+Sun 11:21: ########################################## 
+
+Sun 11:21: MaxCompiler version: 2014.1.1 (simulation only).
+Sun 11:21: Build Simulation run rule for BAW start time: Sun Apr 19 11:21:07 PDT 2015.
+Sun 11:21: Project location: /home/demo/desktop/workspace/BAW.
+Sun 11:21: Detailed build log: /home/demo/desktop/workspace/BAW/RunRules/Simulation/build.log.
+
+Sun 11:21: Compiling Engine Code.
+Sun 11:21: Engine building skipped (no changes on .max files).
+Sun 11:21: Compiling CPU Code.
+Sun 11:21: Run CPU project make files updating
+Sun 11:21: Executing command:
+Sun 11:21: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/desktop/workspace/BAW Simulation 
+Sun 11:21: Command output:
+
+Sun 11:21: MaxCompiler Project Admin Tool Version 2014.1.1
+Sun 11:21:  Copyright Maxeler Technologies 2010 - 2014. All rights reserved.
+Sun 11:21: Handler version 2
+Sun 11:21: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Sun 11:21: 	Updating: Simulation
+Sun 11:21: Found makefiles: 1
+Sun 11:21: 	Updated: Simulation
+Sun 11:21: Run CPU make.
+Sun 11:21: make RUNRULE=Simulation 
+Sun 11:21: Command output:
+Sun 11:21: make -f Makefile.rules build
+Sun 11:21: make[1]: Entering directory `/home/demo/desktop/workspace/BAW/CPUCode'
+Sun 11:21: set -e; rm -f ../RunRules/Simulation/objects/c/BAWCpuCode.d ;                                                             \
+Sun 11:21: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error BAWCpuCode.c > ../RunRules/Simulation/objects/c/BAWCpuCode.d.$$ ;                                 \
+Sun 11:21:       sed 's,\(BAWCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/BAWCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/BAWCpuCode.d.$$ > ../RunRules/Simulation/objects/c/BAWCpuCode.d; \
+Sun 11:21:       rm -f ../RunRules/Simulation/objects/c/BAWCpuCode.d.$$
+Sun 11:21: make[1]: Leaving directory `/home/demo/desktop/workspace/BAW/CPUCode'
+Sun 11:21: make[1]: Entering directory `/home/demo/desktop/workspace/BAW/CPUCode'
+Sun 11:21: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c BAWCpuCode.c -o ../RunRules/Simulation/objects/c/BAWCpuCode.o
+Sun 11:21: BAWCpuCode.c: In function ‘main’:
+Sun 11:21: BAWCpuCode.c:242: warning: unused variable ‘missed_arr_volatilty_S_G_K_P’
+Sun 11:21: BAWCpuCode.c:241: warning: unused variable ‘missed_arr_volatilty_S_L_K_P’
+Sun 11:21: BAWCpuCode.c:240: warning: unused variable ‘missed_arr_volatilty_S_G_K_C’
+Sun 11:21: BAWCpuCode.c:239: warning: unused variable ‘missed_arr_volatilty_S_L_K_C’
+Sun 11:21: BAWCpuCode.c:211: warning: ‘prev_data_put_march.bid’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:211: warning: ‘prev_data_put_march.ask’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:211: warning: ‘prev_data_put_march.ttm’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:211: warning: ‘prev_data_put_march.underlying’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:212: warning: ‘prev_data_put_april.ttm’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:212: warning: ‘prev_data_put_april.ask’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:212: warning: ‘prev_data_put_april.bid’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:212: warning: ‘prev_data_put_april.k’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:212: warning: ‘prev_data_put_april.underlying’ may be used uninitialized in this function
+Sun 11:21: BAWCpuCode.c:211: warning: ‘prev_data_put_march.k’ may be used uninitialized in this function
+Sun 11:21: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/BAW ../RunRules/Simulation/objects/maxfiles/slic_BAW.o ../RunRules/Simulation/objects/c/BAWCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
+Sun 11:21: make[1]: Leaving directory `/home/demo/desktop/workspace/BAW/CPUCode'
+Sun 11:21: Build completed: Sun Apr 19 11:21:08 PDT 2015
+
+
+Sun 11:21: ########################################## 
+Sun 11:21: Running
+Sun 11:21: ########################################## 
+Sun 11:21: Executing command:
+Sun 11:21: '/home/demo/desktop/workspace/BAW/RunRules/Simulation/binaries/BAW' 
+Sun 11:21: Command output:
+Sun 11:21: Read option data completed.
+Sun 11:21: Start reading Underlying asset data for implied volatility calculation.
+Sun 11:21: bisection not converged, set to 0.31.
+Sun 11:21: bisection not converged, set to 0.31.
+Sun 11:21: bisection not converged, set to 0.31.
+Sun 11:21: Implied Volatility calculation completed.
+Sun 11:21: Number of accurately price option = 4322 of 8934.
+Sun 11:21: time is 0.290000
+Sun 11:21: Process terminated with exit code 0.
